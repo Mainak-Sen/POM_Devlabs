@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test_SNOW(failed)">
+    <classes>
+      <class name="POM_Demo.POM_Devlabs.SeleniumTest_POM">
+        <methods>
+          <include name="Validate_TC003" invocation-numbers="0"/>
+          <include name="stopApp"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- POM_Demo.POM_Devlabs.SeleniumTest_POM -->
+    </classes>
+  </test> <!-- Test_SNOW(failed) -->
+</suite> <!-- Failed suite [Suite] -->
