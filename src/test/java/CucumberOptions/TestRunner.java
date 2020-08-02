@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(dryRun=false,
 features= {"src/test/java/features/"},
 glue= "StepDefinition",monochrome=true
-//plugin= {"pretty","json:target/TestCase003_03.json"}
+//plugin= {"pretty","html:target/ServiceNOW-Report"})
 )
 public class TestRunner extends AbstractTestNGCucumberTests{
 }
